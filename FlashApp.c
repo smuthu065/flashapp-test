@@ -28,6 +28,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
+
     // Check the return status of the executed command
     if (WIFEXITED(ret)) {
         int exit_status = WEXITSTATUS(ret);
